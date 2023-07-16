@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.text-color {
+    color:#38302E;
+}
+
+
+.sections {
+    margin-left: auto;
+    margin-right: auto;
+    height: 33.3%;
+    width: 80%
+}
+
+#hero-section {
+    background: url("./images/landscape.jpg");
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: #FAF6F6;
+    border-radius: 10px;
+    padding: 15px;
+    
+    
+}
+
+#hero-title {
+    background: #38302E;
+    font-size: 5rem;
+    margin-bottom: 10px;
+
+}
+
+#hero-p {
+    background: #CF8E80;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#activity-section {
+    background: #FCB5B5;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#activity-title {
+    height: 20%;
+    font-size: 2rem
+}
+
+#activities {
+   display: flex;
+   justify-content: space-evenly;
+    height: 80%;
+}
+
+.activity {
+    display: inherit;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.activity-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+}
+
+.activity-name {
+    font-size: 2rem;
+}
+
+.activity-p {
+    font-size: 1.2rem;
+}
+
+#guide-section {
+    background: #FAF6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 85%;
+    width: 40%;
+
+    background: #FCDDF2;
+    border-radius: 10px;
+    border-bottom: 8px solid #38302E
+}
+
+.guide-items {
+    width: 50%;
+}
+
+#guide-img {
+    width: 170px;
+    height: 220px;
+}
+ 
+#guide-text {
+    display: inherit;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+#your-guide {
+    font-size: 3rem;
+}
+
+#info {
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 100
+}
+
+#guide-name {
+    font-size: 1.7rem;
+}
+
+
